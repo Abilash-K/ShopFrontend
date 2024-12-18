@@ -35,7 +35,7 @@ const AdminLogin: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#EE696B] to-[#523A78] flex items-center justify-center p-4">
       {/* Card Container */}
-      <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+      <div style={{ backgroundColor: '#E5E7EB' }} className="p-8 rounded-lg shadow-lg w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-6">
           <img
@@ -51,7 +51,7 @@ const AdminLogin: React.FC = () => {
         {/* Error Message */}
         {error && (
           <div className="text-sm mb-4 text-center">
-            <p className='text-[#fbfbfb]'>{error}</p>
+            <p className='text-[#b61616]'>{error}</p>
           </div>
         )}
 
